@@ -23,6 +23,9 @@ class Player {
 
 public class Task6 {
     public static void main(String[] args) {
+        Player player1 = new Player("Alex", 150);
+        Player player2 = new Player("Semen", 300);
 
+        System.out.println(GameScore.totalScore);
     }
 }
