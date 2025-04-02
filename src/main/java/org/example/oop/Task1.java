@@ -1,6 +1,6 @@
 package org.example.oop;
 
-class Book {
+class BookTest {
     String title;
     String author;
     int pages;
@@ -12,7 +12,7 @@ class Book {
 
 public class Task1 {
     public static void main(String[] args) {
-        Book book = new Book();
+        BookTest book = new BookTest();
         book.title = "Война и мир";
         book.author = "Лев Толстой";
 

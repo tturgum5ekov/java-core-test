@@ -15,12 +15,12 @@ abstract class Account {
 }
 
 
-interface Printable {
+interface PrintableTest {
     void printInfo();
 }
 
 
-class SavingAccount extends Account implements Printable {
+class SavingAccount extends Account implements PrintableTest {
     public SavingAccount(double balance) {
         super(balance);
     }
@@ -39,7 +39,7 @@ class SavingAccount extends Account implements Printable {
 }
 
 
-class CreditAccount extends Account implements Printable {
+class CreditAccount extends Account implements PrintableTest {
     double credit;
 
     public CreditAccount(double balance, double credit) {
